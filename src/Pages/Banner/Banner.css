@@ -1,0 +1,7 @@
+.banner-bg{
+    background-image: url('https://i.ibb.co/0VJDNRR/banner.jpg');
+    background-repeat: no-repeat;
+    position: relative;
+    background-position: center;
+    background-size: cover;
+}
