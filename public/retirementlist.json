@@ -1,0 +1,65 @@
+[
+    {
+        "id": 1,
+        "title": "Retirement Stage 1",
+        "cover": "https://i.ibb.co/hYg2gtx/1.jpg",
+        "price": "৳16000",
+        "description": "Experience the wedding of your dreams, stress-free! Our expert wedding planners are dedicated to turning your vision into reality. From venue selection to decor, catering, and every detail in between, we ensure your special day is nothing short of perfection. Let us handle the planning so you can focus on creating cherished memories"
+    },
+    {
+        "id": 2,
+        "title": "Retirement Stage 2",
+        "cover": "https://i.ibb.co/2v2ZRB7/2.jpg",
+        "price": "৳17000",
+        "description": "Experience the wedding of your dreams, stress-free! Our expert wedding planners are dedicated to turning your vision into reality. From venue selection to decor, catering, and every detail in between, we ensure your special day is nothing short of perfection. Let us handle the planning so you can focus on creating cherished memories"
+    },
+    {
+        "id": 3,
+        "title": "Retirement Stage 3",
+        "cover": "https://i.ibb.co/prPWcmc/3.jpg",
+        "price": "৳19000",
+        "description": "Experience the wedding of your dreams, stress-free! Our expert wedding planners are dedicated to turning your vision into reality. From venue selection to decor, catering, and every detail in between, we ensure your special day is nothing short of perfection. Let us handle the planning so you can focus on creating cherished memories"
+    },
+    {
+        "id": 4,
+        "title": "Retirement Stage 4",
+        "cover": "https://i.ibb.co/kQMNPzh/4.jpg",
+        "price": "৳8000",
+        "description": "Experience the wedding of your dreams, stress-free! Our expert wedding planners are dedicated to turning your vision into reality. From venue selection to decor, catering, and every detail in between, we ensure your special day is nothing short of perfection. Let us handle the planning so you can focus on creating cherished memories"
+    },
+    {
+        "id": 5,
+        "title": "Retirement Stage 5",
+        "cover": "https://i.ibb.co/5TzV1qk/5.jpg",
+        "price": "৳18000",
+        "description": "Experience the wedding of your dreams, stress-free! Our expert wedding planners are dedicated to turning your vision into reality. From venue selection to decor, catering, and every detail in between, we ensure your special day is nothing short of perfection. Let us handle the planning so you can focus on creating cherished memories"
+    },
+    {
+        "id": 6,
+        "title": "Retirement Stage 6",
+        "cover": "https://i.ibb.co/jHByrZL/6.jpg",
+        "price": "৳11000",
+        "description": "Experience the wedding of your dreams, stress-free! Our expert wedding planners are dedicated to turning your vision into reality. From venue selection to decor, catering, and every detail in between, we ensure your special day is nothing short of perfection. Let us handle the planning so you can focus on creating cherished memories"
+    },
+    {
+        "id": 7,
+        "title": "Retirement Stage 7",
+        "cover": "https://i.ibb.co/7gZNrBr/7.jpg",
+        "price": "৳10000",
+        "description": "Experience the wedding of your dreams, stress-free! Our expert wedding planners are dedicated to turning your vision into reality. From venue selection to decor, catering, and every detail in between, we ensure your special day is nothing short of perfection. Let us handle the planning so you can focus on creating cherished memories"
+    },
+    {
+        "id": 8,
+        "title": "Retirement Stage 8",
+        "cover": "https://i.ibb.co/wM7w4Yx/8.jpg",
+        "price": "৳13000",
+        "description": "Experience the wedding of your dreams, stress-free! Our expert wedding planners are dedicated to turning your vision into reality. From venue selection to decor, catering, and every detail in between, we ensure your special day is nothing short of perfection. Let us handle the planning so you can focus on creating cherished memories"
+    },
+    {
+        "id": 9,
+        "title": "Retirement Stage 9",
+        "cover": "https://i.ibb.co/kDWy3QJ/9.jpg",
+        "price": "৳21000",
+        "description": "Experience the wedding of your dreams, stress-free! Our expert wedding planners are dedicated to turning your vision into reality. From venue selection to decor, catering, and every detail in between, we ensure your special day is nothing short of perfection. Let us handle the planning so you can focus on creating cherished memories"
+    }
+]

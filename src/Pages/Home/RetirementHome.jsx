@@ -8,7 +8,7 @@ const RetirementHome = () => {
     const [services, setServices] = useState([]);
 
     useEffect(() => {
-        fetch('weddingslist.json')
+        fetch('retirementlist.json')
             .then(res => res.json())
             .then(data => setServices(data))
     }, []);

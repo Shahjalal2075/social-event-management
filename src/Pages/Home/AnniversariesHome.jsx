@@ -8,7 +8,7 @@ const AnniversariesHome = () => {
     const [services, setServices] = useState([]);
 
     useEffect(() => {
-        fetch('weddingslist.json')
+        fetch('anniversarylist.json')
             .then(res => res.json())
             .then(data => setServices(data))
     }, []);

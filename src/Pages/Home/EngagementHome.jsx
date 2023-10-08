@@ -8,7 +8,7 @@ const EngagementHome = () => {
     const [services, setServices] = useState([]);
 
     useEffect(() => {
-        fetch('weddingslist.json')
+        fetch('engagementlist.json')
             .then(res => res.json())
             .then(data => setServices(data))
     }, []);

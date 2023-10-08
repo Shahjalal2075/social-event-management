@@ -13,7 +13,7 @@ const Weddings = () => {
 
     return (
         <div className="mt-16">
-            <div className="grid grid-cols-6 gap-3 items-center">
+            <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-3 items-center">
                 {
                     services.map(service => <ServicesCard
                         key={service.id}
