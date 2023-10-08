@@ -8,15 +8,28 @@ import Engagement from "../Pages/Services/Engagement";
 import Retirement from "../Pages/Services/Retirement";
 import BabyShower from "../Pages/Services/BabyShower";
 import ServicesDetails from "../Pages/Shared/ServicesDetails/ServicesDetails";
+import Login from "../Pages/Login/Login";
+import Register from "../Pages/Register/Register";
+import PrivateRoute from "./PrivateRoute";
+import ErrorPage from "../Pages/ErrorPage/ErrorPage";
 
 const routes = createBrowserRouter([
     {
         path: "/",
         element: <Root></Root>,
+        errorElement: <ErrorPage></ErrorPage>,
         children: [
             {
                 path: "/",
                 element: <Home></Home>
+            },
+            {
+                path: "/login",
+                element: <Login></Login>
+            },
+            {
+                path: "/register",
+                element: <Register></Register>
             },
             {
                 path: "/weddings",
@@ -24,7 +37,7 @@ const routes = createBrowserRouter([
             },
             {
                 path: "/weddings/:id",
-                element: <ServicesDetails></ServicesDetails>,
+                element: <PrivateRoute><ServicesDetails></ServicesDetails></PrivateRoute>,
                 loader: () => fetch('weddingslist.json')
             },
             {
@@ -33,7 +46,7 @@ const routes = createBrowserRouter([
             },
             {
                 path: "/birthday/:id",
-                element: <ServicesDetails></ServicesDetails>,
+                element: <PrivateRoute><ServicesDetails></ServicesDetails></PrivateRoute> ,
                 loader: () => fetch('birthdaylist.json')
             },
             {
@@ -42,7 +55,7 @@ const routes = createBrowserRouter([
             },
             {
                 path: "/anniversary/:id",
-                element: <ServicesDetails></ServicesDetails>,
+                element: <PrivateRoute><ServicesDetails></ServicesDetails></PrivateRoute>,
                 loader: () => fetch('anniversarylist.json')
             },
             {
@@ -51,7 +64,7 @@ const routes = createBrowserRouter([
             },
             {
                 path: "/engagement/:id",
-                element: <ServicesDetails></ServicesDetails>,
+                element: <PrivateRoute><ServicesDetails></ServicesDetails></PrivateRoute>,
                 loader: () => fetch('engagementlist.json')
             },
             {
@@ -60,7 +73,7 @@ const routes = createBrowserRouter([
             },
             {
                 path: "/retirement/:id",
-                element: <ServicesDetails></ServicesDetails>,
+                element: <PrivateRoute><ServicesDetails></ServicesDetails></PrivateRoute>,
                 loader: () => fetch('retirementlist.json')
             },
             {
@@ -69,7 +82,7 @@ const routes = createBrowserRouter([
             },
             {
                 path: "/babyshower/:id",
-                element: <ServicesDetails></ServicesDetails>,
+                element: <PrivateRoute><ServicesDetails></ServicesDetails></PrivateRoute>,
                 loader: () => fetch('babyshowerlist.json')
             }
         ]
