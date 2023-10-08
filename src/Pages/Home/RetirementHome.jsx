@@ -15,8 +15,8 @@ const RetirementHome = () => {
 
     return (
         <div className="mt-16">
-            <div className="grid grid-cols-6 gap-3 items-center">
-                <div className="flex flex-col font-bold text-5xl justify-center items-center">
+            <div className="grid md:grid-cols-6 grid-col-1 gap-3 items-center">
+                <div className="flex md:flex-col flex-row font-bold text-5xl justify-center items-center">
                     <p>R</p>
                     <p>E</p>
                     <p>T</p>
