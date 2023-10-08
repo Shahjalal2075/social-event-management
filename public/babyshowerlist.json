@@ -1,0 +1,65 @@
+[
+    {
+        "id": 1,
+        "title": "Baby Shower Stage 1",
+        "cover": "https://i.ibb.co/JKzYnPn/4.jpg",
+        "price": "৳8000",
+        "description": "Experience the wedding of your dreams, stress-free! Our expert wedding planners are dedicated to turning your vision into reality. From venue selection to decor, catering, and every detail in between, we ensure your special day is nothing short of perfection. Let us handle the planning so you can focus on creating cherished memories"
+    },
+    {
+        "id": 2,
+        "title": "Baby Shower Stage 2",
+        "cover": "https://i.ibb.co/GdQDkpP/5.jpg",
+        "price": "৳18000",
+        "description": "Experience the wedding of your dreams, stress-free! Our expert wedding planners are dedicated to turning your vision into reality. From venue selection to decor, catering, and every detail in between, we ensure your special day is nothing short of perfection. Let us handle the planning so you can focus on creating cherished memories"
+    },
+    {
+        "id": 3,
+        "title": "Baby Shower Stage 3",
+        "cover": "https://i.ibb.co/hfVK4gM/6.jpg",
+        "price": "৳11000",
+        "description": "Experience the wedding of your dreams, stress-free! Our expert wedding planners are dedicated to turning your vision into reality. From venue selection to decor, catering, and every detail in between, we ensure your special day is nothing short of perfection. Let us handle the planning so you can focus on creating cherished memories"
+    },
+    {
+        "id": 4,
+        "title": "Baby Shower Stage 4",
+        "cover": "https://i.ibb.co/VwTT8qF/1.jpg",
+        "price": "৳16000",
+        "description": "Experience the wedding of your dreams, stress-free! Our expert wedding planners are dedicated to turning your vision into reality. From venue selection to decor, catering, and every detail in between, we ensure your special day is nothing short of perfection. Let us handle the planning so you can focus on creating cherished memories"
+    },
+    {
+        "id": 5,
+        "title": "Baby Shower Stage 5",
+        "cover": "https://i.ibb.co/Yyd4hMM/2.jpg",
+        "price": "৳17000",
+        "description": "Experience the wedding of your dreams, stress-free! Our expert wedding planners are dedicated to turning your vision into reality. From venue selection to decor, catering, and every detail in between, we ensure your special day is nothing short of perfection. Let us handle the planning so you can focus on creating cherished memories"
+    },
+    {
+        "id": 6,
+        "title": "Baby Shower Stage 6",
+        "cover": "https://i.ibb.co/K68FsgM/3.jpg",
+        "price": "৳19000",
+        "description": "Experience the wedding of your dreams, stress-free! Our expert wedding planners are dedicated to turning your vision into reality. From venue selection to decor, catering, and every detail in between, we ensure your special day is nothing short of perfection. Let us handle the planning so you can focus on creating cherished memories"
+    },
+    {
+        "id": 7,
+        "title": "Baby Shower Stage 7",
+        "cover": "https://i.ibb.co/CVMZqy2/7.jpg",
+        "price": "৳10000",
+        "description": "Experience the wedding of your dreams, stress-free! Our expert wedding planners are dedicated to turning your vision into reality. From venue selection to decor, catering, and every detail in between, we ensure your special day is nothing short of perfection. Let us handle the planning so you can focus on creating cherished memories"
+    },
+    {
+        "id": 8,
+        "title": "Baby Shower Stage 8",
+        "cover": "https://i.ibb.co/KDZMvkF/8.jpg",
+        "price": "৳13000",
+        "description": "Experience the wedding of your dreams, stress-free! Our expert wedding planners are dedicated to turning your vision into reality. From venue selection to decor, catering, and every detail in between, we ensure your special day is nothing short of perfection. Let us handle the planning so you can focus on creating cherished memories"
+    },
+    {
+        "id": 9,
+        "title": "Baby Shower Stage 9",
+        "cover": "https://i.ibb.co/p4n51YZ/9.jpg",
+        "price": "৳21000",
+        "description": "Experience the wedding of your dreams, stress-free! Our expert wedding planners are dedicated to turning your vision into reality. From venue selection to decor, catering, and every detail in between, we ensure your special day is nothing short of perfection. Let us handle the planning so you can focus on creating cherished memories"
+    }
+]

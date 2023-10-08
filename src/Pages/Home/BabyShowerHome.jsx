@@ -8,7 +8,7 @@ const BabyShowerHome = () => {
     const [services, setServices] = useState([]);
 
     useEffect(() => {
-        fetch('weddingslist.json')
+        fetch('babyshowerlist.json')
             .then(res => res.json())
             .then(data => setServices(data))
     }, []);
@@ -17,7 +17,7 @@ const BabyShowerHome = () => {
         <div className="mt-16">
             <div className="grid md:grid-cols-6 grid-col-1 gap-3 items-center">
                 <div className="md:flex justify-center items-center hidden">
-                    <Link className=" text-7xl" to={"/birthday"}><BsFillArrowLeftCircleFill></BsFillArrowLeftCircleFill></Link>
+                    <Link className=" text-7xl" to={"/babyshower"}><BsFillArrowLeftCircleFill></BsFillArrowLeftCircleFill></Link>
                 </div>
                 <div className="flex md:hidden font-bold text-5xl justify-center items-center">
                     <p>B</p>
@@ -39,7 +39,7 @@ const BabyShowerHome = () => {
                     </ServicesCard>)
                 }
                 <div className="md:hidden justify-center items-center flex">
-                    <Link className=" text-7xl" to={"/birthday"}><BsFillArrowRightCircleFill></BsFillArrowRightCircleFill></Link>
+                    <Link className=" text-7xl" to={"/babyshower"}><BsFillArrowRightCircleFill></BsFillArrowRightCircleFill></Link>
                 </div>
                 <div className="hidden md:flex md:flex-col font-bold text-5xl justify-center items-center">
                     <p>B</p>
