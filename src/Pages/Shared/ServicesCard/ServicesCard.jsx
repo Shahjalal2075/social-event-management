@@ -1,8 +1,9 @@
 import PropTypes from 'prop-types';
+import { Link } from 'react-router-dom';
 
 const ServicesCard = ({ service }) => {
 
-    const {title,cover,price,description}=service;
+    const { id, category, title, cover, price, description } = service;
 
     console.log(service);
 
@@ -15,7 +16,7 @@ const ServicesCard = ({ service }) => {
                     <p className='text-base text-[#1F2937] font-normal'>{description}</p>
                     <div className="flex justify-between items-center">
                         <p className='text-lg text-[#1F2937] font-semibold'>{price}</p>
-                        <button className='btn btn-neutral text-[#fff]'>View Details</button>
+                        <Link to={`/${category}/${id}`} className='btn btn-neutral text-[#fff]'>View Details</Link>
                     </div>
                 </div>
             </div>

@@ -1,6 +1,7 @@
 [
     {
         "id": 1,
+        "category": "birthday",
         "title": "Under the Sea Theme Birthday",
         "cover": "https://i.ibb.co/zH58YsF/1.jpg",
         "price": "৳10000",
@@ -8,6 +9,7 @@
     },
     {
         "id": 2,
+        "category": "birthday",
         "title": "Mermaid Theme Birthday",
         "cover": "https://i.ibb.co/VjG93rQ/2.jpg",
         "price": "৳13000",
@@ -15,6 +17,7 @@
     },
     {
         "id": 3,
+        "category": "birthday",
         "title": "Winnie the Pooh theme Birthday",
         "cover": "https://i.ibb.co/SXWT75L/3.jpg",
         "price": "৳18000",
@@ -22,6 +25,7 @@
     },
     {
         "id": 4,
+        "category": "birthday",
         "title": "Aladdin Theme Birthday at Lakeshore Hotel",
         "cover": "https://i.ibb.co/nzDVKHL/4.jpg",
         "price": "৳16000",
@@ -29,6 +33,7 @@
     },
     {
         "id": 5,
+        "category": "birthday",
         "title": "Sofia Theme Birthday",
         "cover": "https://i.ibb.co/Qfrp0n6/5.jpg",
         "price": "৳19000",
@@ -36,6 +41,7 @@
     },
     {
         "id": 6,
+        "category": "birthday",
         "title": "Disney Princess Theme Birthday",
         "cover": "https://i.ibb.co/LJ5d2nk/6.jpg",
         "price": "৳11000",
@@ -43,6 +49,7 @@
     },
     {
         "id": 7,
+        "category": "birthday",
         "title": "Shopkin theme",
         "cover": "https://i.ibb.co/XjypS5s/7.jpg",
         "price": "৳17000",
@@ -50,6 +57,7 @@
     },
     {
         "id": 8,
+        "category": "birthday",
         "title": "Carnival -Gulshan 2 home Lawn",
         "cover": "https://i.ibb.co/JtVqHrM/8.jpg",
         "price": "৳8000",
@@ -57,6 +65,7 @@
     },
     {
         "id": 9,
+        "category": "birthday",
         "title": "Super Heroes theme",
         "cover": "https://i.ibb.co/f0yVDkW/9.jpg",
         "price": "৳23000",

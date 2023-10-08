@@ -7,6 +7,7 @@ import Anniversaries from "../Pages/Services/Anniversaries";
 import Engagement from "../Pages/Services/Engagement";
 import Retirement from "../Pages/Services/Retirement";
 import BabyShower from "../Pages/Services/BabyShower";
+import ServicesDetails from "../Pages/Shared/ServicesDetails/ServicesDetails";
 
 const routes = createBrowserRouter([
     {
@@ -22,24 +23,54 @@ const routes = createBrowserRouter([
                 element: <Weedings></Weedings>
             },
             {
+                path: "/weddings/:id",
+                element: <ServicesDetails></ServicesDetails>,
+                loader: () => fetch('weddingslist.json')
+            },
+            {
                 path: "/birthday",
                 element: <Birthday></Birthday>
+            },
+            {
+                path: "/birthday/:id",
+                element: <ServicesDetails></ServicesDetails>,
+                loader: () => fetch('birthdaylist.json')
             },
             {
                 path: "/anniversary",
                 element: <Anniversaries></Anniversaries>
             },
             {
+                path: "/anniversary/:id",
+                element: <ServicesDetails></ServicesDetails>,
+                loader: () => fetch('anniversarylist.json')
+            },
+            {
                 path: "/engagement",
                 element: <Engagement></Engagement>
+            },
+            {
+                path: "/engagement/:id",
+                element: <ServicesDetails></ServicesDetails>,
+                loader: () => fetch('engagementlist.json')
             },
             {
                 path: "/retirement",
                 element: <Retirement></Retirement>
             },
             {
+                path: "/retirement/:id",
+                element: <ServicesDetails></ServicesDetails>,
+                loader: () => fetch('retirementlist.json')
+            },
+            {
                 path: "/babyshower",
                 element: <BabyShower></BabyShower>
+            },
+            {
+                path: "/babyshower/:id",
+                element: <ServicesDetails></ServicesDetails>,
+                loader: () => fetch('babyshowerlist.json')
             }
         ]
     },

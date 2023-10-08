@@ -1,65 +1,74 @@
 [
     {
         "id": 1,
+        "category": "babyshower",
         "title": "Baby Shower Stage 1",
         "cover": "https://i.ibb.co/JKzYnPn/4.jpg",
         "price": "৳8000",
-        "description": "Experience the wedding of your dreams, stress-free! Our expert wedding planners are dedicated to turning your vision into reality. From venue selection to decor, catering, and every detail in between, we ensure your special day is nothing short of perfection. Let us handle the planning so you can focus on creating cherished memories"
+        "description": "A baby shower planner is an event specialist dedicated to crafting delightful and stress-free baby shower celebrations. They collaborate with hosts to create memorable events for expectant parents, handling everything from theme selection and decoration arrangement to games and invitations. Baby shower planners ensure a joyful and well-organized celebration, allowing parents-to-be and their guests to cherish the anticipation of a new arrival."
     },
     {
         "id": 2,
+        "category": "babyshower",
         "title": "Baby Shower Stage 2",
         "cover": "https://i.ibb.co/GdQDkpP/5.jpg",
         "price": "৳18000",
-        "description": "Experience the wedding of your dreams, stress-free! Our expert wedding planners are dedicated to turning your vision into reality. From venue selection to decor, catering, and every detail in between, we ensure your special day is nothing short of perfection. Let us handle the planning so you can focus on creating cherished memories"
+        "description": "A baby shower planner is an event specialist dedicated to crafting delightful and stress-free baby shower celebrations. They collaborate with hosts to create memorable events for expectant parents, handling everything from theme selection and decoration arrangement to games and invitations. Baby shower planners ensure a joyful and well-organized celebration, allowing parents-to-be and their guests to cherish the anticipation of a new arrival."
     },
     {
         "id": 3,
+        "category": "babyshower",
         "title": "Baby Shower Stage 3",
         "cover": "https://i.ibb.co/hfVK4gM/6.jpg",
         "price": "৳11000",
-        "description": "Experience the wedding of your dreams, stress-free! Our expert wedding planners are dedicated to turning your vision into reality. From venue selection to decor, catering, and every detail in between, we ensure your special day is nothing short of perfection. Let us handle the planning so you can focus on creating cherished memories"
+        "description": "A baby shower planner is an event specialist dedicated to crafting delightful and stress-free baby shower celebrations. They collaborate with hosts to create memorable events for expectant parents, handling everything from theme selection and decoration arrangement to games and invitations. Baby shower planners ensure a joyful and well-organized celebration, allowing parents-to-be and their guests to cherish the anticipation of a new arrival."
     },
     {
         "id": 4,
+        "category": "babyshower",
         "title": "Baby Shower Stage 4",
         "cover": "https://i.ibb.co/VwTT8qF/1.jpg",
         "price": "৳16000",
-        "description": "Experience the wedding of your dreams, stress-free! Our expert wedding planners are dedicated to turning your vision into reality. From venue selection to decor, catering, and every detail in between, we ensure your special day is nothing short of perfection. Let us handle the planning so you can focus on creating cherished memories"
+        "description": "A baby shower planner is an event specialist dedicated to crafting delightful and stress-free baby shower celebrations. They collaborate with hosts to create memorable events for expectant parents, handling everything from theme selection and decoration arrangement to games and invitations. Baby shower planners ensure a joyful and well-organized celebration, allowing parents-to-be and their guests to cherish the anticipation of a new arrival."
     },
     {
         "id": 5,
+        "category": "babyshower",
         "title": "Baby Shower Stage 5",
         "cover": "https://i.ibb.co/Yyd4hMM/2.jpg",
         "price": "৳17000",
-        "description": "Experience the wedding of your dreams, stress-free! Our expert wedding planners are dedicated to turning your vision into reality. From venue selection to decor, catering, and every detail in between, we ensure your special day is nothing short of perfection. Let us handle the planning so you can focus on creating cherished memories"
+        "description": "A baby shower planner is an event specialist dedicated to crafting delightful and stress-free baby shower celebrations. They collaborate with hosts to create memorable events for expectant parents, handling everything from theme selection and decoration arrangement to games and invitations. Baby shower planners ensure a joyful and well-organized celebration, allowing parents-to-be and their guests to cherish the anticipation of a new arrival."
     },
     {
         "id": 6,
+        "category": "babyshower",
         "title": "Baby Shower Stage 6",
         "cover": "https://i.ibb.co/K68FsgM/3.jpg",
         "price": "৳19000",
-        "description": "Experience the wedding of your dreams, stress-free! Our expert wedding planners are dedicated to turning your vision into reality. From venue selection to decor, catering, and every detail in between, we ensure your special day is nothing short of perfection. Let us handle the planning so you can focus on creating cherished memories"
+        "description": "A baby shower planner is an event specialist dedicated to crafting delightful and stress-free baby shower celebrations. They collaborate with hosts to create memorable events for expectant parents, handling everything from theme selection and decoration arrangement to games and invitations. Baby shower planners ensure a joyful and well-organized celebration, allowing parents-to-be and their guests to cherish the anticipation of a new arrival."
     },
     {
         "id": 7,
+        "category": "babyshower",
         "title": "Baby Shower Stage 7",
         "cover": "https://i.ibb.co/CVMZqy2/7.jpg",
         "price": "৳10000",
-        "description": "Experience the wedding of your dreams, stress-free! Our expert wedding planners are dedicated to turning your vision into reality. From venue selection to decor, catering, and every detail in between, we ensure your special day is nothing short of perfection. Let us handle the planning so you can focus on creating cherished memories"
+        "description": "A baby shower planner is an event specialist dedicated to crafting delightful and stress-free baby shower celebrations. They collaborate with hosts to create memorable events for expectant parents, handling everything from theme selection and decoration arrangement to games and invitations. Baby shower planners ensure a joyful and well-organized celebration, allowing parents-to-be and their guests to cherish the anticipation of a new arrival."
     },
     {
         "id": 8,
+        "category": "babyshower",
         "title": "Baby Shower Stage 8",
         "cover": "https://i.ibb.co/KDZMvkF/8.jpg",
         "price": "৳13000",
-        "description": "Experience the wedding of your dreams, stress-free! Our expert wedding planners are dedicated to turning your vision into reality. From venue selection to decor, catering, and every detail in between, we ensure your special day is nothing short of perfection. Let us handle the planning so you can focus on creating cherished memories"
+        "description": "A baby shower planner is an event specialist dedicated to crafting delightful and stress-free baby shower celebrations. They collaborate with hosts to create memorable events for expectant parents, handling everything from theme selection and decoration arrangement to games and invitations. Baby shower planners ensure a joyful and well-organized celebration, allowing parents-to-be and their guests to cherish the anticipation of a new arrival."
     },
     {
         "id": 9,
+        "category": "babyshower",
         "title": "Baby Shower Stage 9",
         "cover": "https://i.ibb.co/p4n51YZ/9.jpg",
         "price": "৳21000",
-        "description": "Experience the wedding of your dreams, stress-free! Our expert wedding planners are dedicated to turning your vision into reality. From venue selection to decor, catering, and every detail in between, we ensure your special day is nothing short of perfection. Let us handle the planning so you can focus on creating cherished memories"
+        "description": "A baby shower planner is an event specialist dedicated to crafting delightful and stress-free baby shower celebrations. They collaborate with hosts to create memorable events for expectant parents, handling everything from theme selection and decoration arrangement to games and invitations. Baby shower planners ensure a joyful and well-organized celebration, allowing parents-to-be and their guests to cherish the anticipation of a new arrival."
     }
 ]
