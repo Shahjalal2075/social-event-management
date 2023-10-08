@@ -1,4 +1,5 @@
 import { Link, NavLink } from "react-router-dom";
+import './Header.css';
 
 const Header = () => {
     return (
@@ -9,12 +10,12 @@ const Header = () => {
                         <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
                     </label>
                     <div tabIndex={0} className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-32">
-                        <NavLink to={"/"}>Weddings</NavLink>
-                        <NavLink to={"/"}>Birthday</NavLink>
-                        <NavLink to={"/"}>Anniversaries</NavLink>
-                        <NavLink to={"/"}>Engagement</NavLink>
-                        <NavLink to={"/"}>Retirement</NavLink>
-                        <NavLink to={"/"}>Baby Shower</NavLink>
+                        <NavLink activeClassName="active" to={"/weddings"}>Weddings</NavLink>
+                        <NavLink activeClassName="active" to={"/birthday"}>Birthday</NavLink>
+                        <NavLink activeClassName="active" to={"/anniversary"}>Anniversary</NavLink>
+                        <NavLink activeClassName="active" to={"/engagement"}>Engagement</NavLink>
+                        <NavLink activeClassName="active" to={"/retirement"}>Retirement</NavLink>
+                        <NavLink activeClassName="active" to={"/babyshower"}>Baby Shower</NavLink>
                     </div>
                 </div>
                 <div className="hidden lg:flex">
@@ -25,12 +26,12 @@ const Header = () => {
             </div>
             <div className="navbar-center">
                 <div className="lg:flex gap-8 hidden">
-                    <NavLink to={"/"}>Weddings</NavLink>
-                    <NavLink to={"/"}>Birthday</NavLink>
-                    <NavLink to={"/"}>Anniversaries</NavLink>
-                    <NavLink to={"/"}>Engagement</NavLink>
-                    <NavLink to={"/"}>Retirement</NavLink>
-                    <NavLink to={"/"}>Baby Shower</NavLink>
+                    <NavLink activeClassName="active" to={"/weddings"}>Weddings</NavLink>
+                    <NavLink activeClassName="active" to={"/birthday"}>Birthday</NavLink>
+                    <NavLink activeClassName="active" to={"/anniversary"}>Anniversary</NavLink>
+                    <NavLink activeClassName="active" to={"/engagement"}>Engagement</NavLink>
+                    <NavLink activeClassName="active" to={"/retirement"}>Retirement</NavLink>
+                    <NavLink activeClassName="active" to={"/babyshower"}>Baby Shower</NavLink>
                 </div>
                 <div className="lg:hidden ">
                     <Link to={"/"}>
