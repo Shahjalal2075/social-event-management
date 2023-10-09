@@ -20,9 +20,9 @@ console.log(greetign);
 
 #### Answer: A: `{}`
 
-When i run this code, i will see an empty object {} printed in the console because i have assigned an empty object to the greeting variable.
 
-<i>Write your explanation here</i>
+
+<i>When i run this code, i will see an empty object {} printed in the console because i have assigned an empty object to the greeting variable.</i>
 
 </p>
 </details>
@@ -45,9 +45,11 @@ sum(1, "2");
 <details><summary><b>Answer</b></summary>
 <p>
 
-#### Answer: ?
+#### Answer: C: `"12"`
 
-<i>Write your explanation here</i>
+
+<i>The sum function takes two arguments a and b. Inside the function, i am using the + operator to add them together. However, the second argument is a string "2".
+JavaScript performs type coercion and converts the number 1 to a string and then concatenates the two strings together, resulting in "12" (a string) as the output.</i>
 
 </p>
 </details>
@@ -71,9 +73,10 @@ console.log(food);
 <details><summary><b>Answer</b></summary>
 <p>
 
-#### Answer: ?
+#### Answer: A: `['🍕', '🍫', '🥑', '🍔']`
 
-<i>Write your explanation here</i>
+
+<i>The food array is not modified by the assignment to info.favoriteFood. So, when you console.log(food), it will still output the original array ["🍕", "🍫", "🥑", "🍔"].</i>
 
 </p>
 </details>
@@ -96,9 +99,10 @@ console.log(sayHi());
 <details><summary><b>Answer</b></summary>
 <p>
 
-#### Answer: ?
+#### Answer: B: `Hi there, undefined`
 
-<i>Write your explanation here</i>
+
+<i>The sayHi() function is called without any arguments, and name inside the function is undefined. Therefore, the result will be: Hi there, undefined</i>
 
 </p>
 </details>
@@ -124,9 +128,12 @@ console.log(count);
 <details><summary><b>Answer</b></summary>
 <p>
 
-#### Answer: ?
+#### Answer: C: 3
 
-<i>Write your explanation here</i>
+<i>Initially, count is set to 0.
+The forEach method iterates through each element of the nums array.
+For each element, the callback function checks if num is truthy (not equal to 0).
+If num is truthy, it increments count by 1</i>
 
 </p>
 </details>
