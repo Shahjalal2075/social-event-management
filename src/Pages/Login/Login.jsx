@@ -6,7 +6,7 @@ import 'react-toastify/dist/ReactToastify.css';
 
 const Login = () => {
 
-    const { signInUser } = useContext(AuthContext);
+    const { signInUser, googleUser } = useContext(AuthContext);
     const navigate = useNavigate();
 
     const handleLogin = e => {
@@ -20,12 +20,36 @@ const Login = () => {
             .then(result => {
                 console.log(result.user);
                 toast("Login Succsessfull.");
-                navigate("/");
+                setTimeout(() => {
+                    navigate("/");
+                }, 1600);
+            })
+            .catch(error => {
+                console.error(error);
+                if (error.code === 'auth/user-not-found') {
+                    toast('Email does not match any user.');
+                } else if (error.code === 'auth/wrong-password') {
+                    toast('Password does not match.');
+                } else {
+                    toast('Login failed: ' + error.message);
+                }
+                navigate("/login");
+            })
+    }
+
+    const handleGoogleSignin = () => {
+        googleUser()
+            .then(result => {
+                console.log(result.user);
+                toast("Login Succsessfully.");
+
+                setTimeout(() => {
+                    navigate("/");
+                }, 1600);
             })
             .catch(error => {
                 console.error(error);
                 toast(error.message);
-                navigate("/login");
             })
     }
 
@@ -40,7 +64,7 @@ const Login = () => {
 
                 <h2 className="text-4xl font-bold">Welcome Back</h2>
                 <p className="text-base font-medium mt-12">Please Enter Your Details</p>
-                <button className="border px-6 py-1 rounded-2xl text-xl font-semibold my-6 w-80">Log In with Google</button>
+                <button onClick={handleGoogleSignin} className="border px-6 py-1 rounded-2xl text-xl font-semibold my-6 w-80">Log In with Google</button>
                 <div className="flex gap-4 items-center">
                     <hr className="w-20" />
                     <p>or</p>

@@ -8,7 +8,7 @@ import 'react-toastify/dist/ReactToastify.css';
 const Register = () => {
 
 
-    const { createUser } = useContext(AuthContext);
+    const { createUser, googleUser } = useContext(AuthContext);
     const navigate = useNavigate();
 
     const handleRegister = e => {
@@ -18,9 +18,23 @@ const Register = () => {
         const password = e.target.password.value;
         console.log(name + " " + email + " " + password);
 
+        if (password.length < 6) {
+            toast("Password is less than 6 characters.");
+            return;
+        }
+        else if (!/[A-Z]/.test(password)) {
+            toast("Password don't have a capital letter");
+            return;
+        }
+        else if (!/[!@#$%^&*()_+{}\[\]:;<>,.?~\\/-]/.test(password)) {
+            toast("Password don't have a special character");
+            return;
+        }
+
         createUser(email, password)
             .then(result => {
                 console.log(result.user);
+
                 toast("User Create Succsessfully.");
 
                 updateProfile(result.user, {
@@ -29,7 +43,25 @@ const Register = () => {
                     .then()
                     .catch()
 
-                navigate("/");
+                setTimeout(() => {
+                    navigate("/");
+                }, 1600);
+            })
+            .catch(error => {
+                console.error(error);
+                toast(error.message);
+            })
+    }
+
+    const handleGoogleSignin = () => {
+        googleUser()
+            .then(result => {
+                console.log(result.user);
+                toast("User Create Succsessfully.");
+
+                setTimeout(() => {
+                    navigate("/");
+                }, 1600);
             })
             .catch(error => {
                 console.error(error);
@@ -47,7 +79,7 @@ const Register = () => {
 
                 <h2 className="text-4xl font-bold">Create Account</h2>
                 <p className="text-base font-medium mt-12">Please Enter Your Details</p>
-                <button className="border px-6 py-1 rounded-2xl text-xl font-semibold my-6 w-80">Sign Up with Google</button>
+                <button onClick={handleGoogleSignin} className="border px-6 py-1 rounded-2xl text-xl font-semibold my-6 w-80">Sign Up with Google</button>
                 <div className="flex gap-4 items-center">
                     <hr className="w-20" />
                     <p>or</p>

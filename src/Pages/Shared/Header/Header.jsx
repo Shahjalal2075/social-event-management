@@ -27,6 +27,7 @@ const Header = () => {
                         <NavLink activeClassName="active" to={"/engagement"}>Engagement</NavLink>
                         <NavLink activeClassName="active" to={"/retirement"}>Retirement</NavLink>
                         <NavLink activeClassName="active" to={"/babyshower"}>Baby Shower</NavLink>
+                        <NavLink activeClassName="active" to={"/profile"}>Profile</NavLink>
                     </div>
                 </div>
                 <div className="hidden lg:flex">
@@ -43,6 +44,7 @@ const Header = () => {
                     <NavLink activeClassName="active" to={"/engagement"}>Engagement</NavLink>
                     <NavLink activeClassName="active" to={"/retirement"}>Retirement</NavLink>
                     <NavLink activeClassName="active" to={"/babyshower"}>Baby Shower</NavLink>
+                    <NavLink activeClassName="active" to={"/profile"}>Profile</NavLink>
                 </div>
                 <div className="lg:hidden ">
                     <Link to={"/"}>
@@ -53,11 +55,14 @@ const Header = () => {
             <div className="navbar-end">
                 {
                     user ?
-                        <div className="flex gap-8 justify-center items-center">
-                            {
-                                user.photoURL ? <img className="mask mask-circle w-12" src={user.photoURL} /> : <img className="mask mask-circle w-12" src="https://i.ibb.co/0rcvLrD/users.png" />
-                            }
-                            <NavLink onClick={handleLogOut}>Logout</NavLink>
+                        <div className="flex flex-col items-center justify-center gap-2 border p-2 rounded-lg">
+                            <div className="flex gap-2 justify-center items-center">
+                                {
+                                    user.photoURL ? <img className="mask mask-circle w-12" src={user.photoURL} /> : <img className="mask mask-circle w-12" src="https://i.ibb.co/0rcvLrD/users.png" />
+                                }
+                                <NavLink onClick={handleLogOut}>Logout</NavLink>
+                            </div>
+                            <h2 className="text-lg font-bold">{user.displayName}</h2>
                         </div>
                         :
                         <div className="flex gap-8">
