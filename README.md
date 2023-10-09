@@ -1,8 +1,19 @@
-# React + Vite
+## Website Features:
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+- User Registration and Authentication
 
-Currently, two official plugins are available:
+- 6 type event services
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- every service section has many type plan.
+
+- when i click details then go plan details page.
+
+- profile section
+
+- portfolio section
+
+- Google Signin method
+
+## Live Link:
+
+link: https://social-event-management-dd089.web.app/
