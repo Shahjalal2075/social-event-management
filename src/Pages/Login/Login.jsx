@@ -27,7 +27,7 @@ const Login = () => {
             .catch(error => {
                 console.error(error);
                 if (error.code === 'auth/user-not-found') {
-                    toast('Email does not match any user.');
+                    toast('Email does not match.');
                 } else if (error.code === 'auth/wrong-password') {
                     toast('Password does not match.');
                 } else {
