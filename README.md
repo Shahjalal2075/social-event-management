@@ -1,4 +1,8 @@
-## Website Features:
+# Live Link:
+
+link: https://social-event-management-dd089.web.app/
+
+# Website Features:
 
 - User Registration and Authentication
 
@@ -14,6 +18,4 @@
 
 - Google Signin method
 
-## Live Link:
 
-link: https://social-event-management-dd089.web.app/

@@ -56,7 +56,7 @@ const Login = () => {
 
     return (
 
-        <div className="grid grid-cols-5">
+        <div className="grid lg:grid-cols-5 grid-cols-2">
             <div className=" col-span-3">
                 <img className="w-full" src="https://i.ibb.co/DfSJZvt/4957136.jpg" alt="" />
             </div>
