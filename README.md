@@ -1,8 +1,10 @@
-# Live Link:
+# Social Event Management
+
+## Live Link:
 
 link: https://social-event-management-dd089.web.app/
 
-# Website Features:
+## Website Features:
 
 - User Registration and Authentication
 
@@ -17,5 +19,15 @@ link: https://social-event-management-dd089.web.app/
 - portfolio section
 
 - Google Signin method
+
+## :computer: Uses Languages and Tools
+
+<br>
+<p align="center">
+<img src="https://raw.githubusercontent.com/Shahjalal2075/Shahjalal2075/main/assets/icons/react.png"/>
+<img src="https://raw.githubusercontent.com/Shahjalal2075/Shahjalal2075/main/assets/icons/tailwind.png"/>
+<img src="https://raw.githubusercontent.com/Shahjalal2075/Shahjalal2075/main/assets/icons/firebase.png"/>
+<img src="https://raw.githubusercontent.com/Shahjalal2075/Shahjalal2075/main/assets/icons/JavaScript.png"/>
+</p><br/>
 
 
